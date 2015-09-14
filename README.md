@@ -14,3 +14,9 @@ Poke outside of the ZX81 RAM (@33333, for example) is used by GPIO2 (LSB).
 Built using esp-open-sdk, and esp_iot_sdk_v1.3.0.
 
 JJM
+
+Just add a file "wifi-params.h" in folder user, with your wireless credentials
+
+\#define WIFI_SSID "YourSSID"
+\#define WIFI_PASSWD "YourKeyPwd"
+
