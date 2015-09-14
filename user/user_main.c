@@ -20,6 +20,8 @@ const unsigned char ROM81[8192]={
 
 #include "../zxgal.h"
 
+#include "wifi-params.h"
+
 void ICACHE_FLASH_ATTR
 load_prog(void)
 {
@@ -83,8 +85,8 @@ void user_init(void)
 {
     int i;
 
-    char ssid[32] = "OpenWrt";
-    char password[64] = "gtwireless";
+    char ssid[32] = WIFI_SSID;
+    char password[64] = WIFI_PASSWD;
     struct station_config stationConf;
 
     uart_init(115200,115200);
