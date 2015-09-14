@@ -3,6 +3,7 @@ import curses
 
 usock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
+# Put you ESP address here
 addr = ("192.168.1.157",1025)
 
 conv=" ..........\"$$:?()<>=+-*/;,.0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
