@@ -17,6 +17,6 @@ JJM
 
 Just add a file "wifi-params.h" in folder user, with your wireless credentials
 
-\#define WIFI_SSID "YourSSID"
-\#define WIFI_PASSWD "YourKeyPwd"
+    #define WIFI_SSID "YourSSID"
+    #define WIFI_PASSWD "YourKeyPwd"
 
