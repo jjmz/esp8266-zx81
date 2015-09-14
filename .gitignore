@@ -32,5 +32,6 @@
 *.dSYM/
 
 #output dirs 
+*/.output/
+user/wifi-params.h
 
-.output/*
